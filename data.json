@@ -1,0 +1,74 @@
+{
+  "programmation": [
+    {
+      "id": "particules",
+      "title": "Simulateur de Particules (Falling Sand)",
+      "tags": ["C++", "Algorithmique", "Raylib"],
+      "description": "Développement d'un moteur simulant la physique de particules (sable, eau, feu) avec interaction en temps réel.",
+      "fullDescription": "Ce projet est un moteur d'automates cellulaires codé de zéro. Il gère des dizaines de milliers de particules à 60 FPS. J'ai dû optimiser l'allocation mémoire et implémenter des règles physiques de base (gravité, dispersion des liquides, combustion du bois).",
+      "git": "https://github.com/ton-pseudo/falling-sand",
+      "gif": "",
+      "gallery": []
+    },
+    {
+      "id": "fourmis",
+      "title": "Simulateur de colonie de Fourmis (ACO)",
+      "tags": ["Java", "Algorithmique", "JavaSwing", "ACO", "Intéractif"],
+      "description": "Projet inspiré du concept \"Ant Colony Simulation\" avec l'implication de l'algorithme ACO pour l'observation de comportements émergents.",
+      "fullDescription": "Simulation d'intelligence en essaim (Swarm Intelligence). Les fourmis déposent des phéromones qui s'évaporent avec le temps. L'interface Swing permet de dessiner des murs ou de déposer de la nourriture en temps réel pour observer l'adaptation de la colonie.",
+      "git": "",
+      "gif": "",
+      "gallery": []
+    }
+  ],
+  "prototypes": [
+    {
+      "id": "repere",
+      "title": "Repère (App Mobile)",
+      "tags": ["Flutter", "Dart", "Map / Localisation"],
+      "description": "Conception d'une application de localisation axée sur l'expérience utilisateur et l'ergonomie.",
+      "fullDescription": "Création d'un prototype fonctionnel en Flutter. Le code a été assisté par l'IA afin de me concentrer exclusivement sur la fluidité des animations, le design system et l'ergonomie de la carte interactive.",
+      "git": "",
+      "gif": "",
+      "gallery": []
+    },
+    {
+      "id": "wazeup",
+      "title": "WazeUp (App Mobile)",
+      "tags": ["Flutter", "Dart", "Gestion du Temps"],
+      "description": "Prototype d'application mobile pour la gestion du temps.",
+      "fullDescription": "Seconde expérimentation UI/UX. L'objectif était de créer des flux de navigation intuitifs pour la saisie de données et la visualisation du temps.",
+      "git": "",
+      "gif": "",
+      "gallery": []
+    }
+  ],
+  "art3d": [
+    {
+      "id": "props3d",
+      "title": "Prototype Jeu Vidéo (Props)",
+      "tags": ["Unreal Engine", "3D", "Creative Seed", "Props", "Rig"],
+      "description": "Création complète de props 3D sur un personnage fourni, et intégration dans Unreal Engine.",
+      "fullDescription": "Pipeline complet de la modélisation à l'intégration moteur. J'ai géré le maillage, les UVs, la création des textures, et l'intégration des assets sur le rig du personnage directement dans Unreal Engine 5.",
+      "git": "https://placehold.co/400x600.png",
+      "gif": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExemt5cm9naHhsbW8xaG0yOG4wMG5uajJlM21mYXBzZXF4eXFpM256MCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o6MbiX7DNPwga0zq8/giphy.gif",
+      "gallery": [
+        "https://placehold.co/400x600.png",
+        "https://placehold.co/400x600.png",
+        "https://placehold.co/400x600.png"
+      ]
+    }
+  ],
+  "autres": [
+    {
+      "id": "livre",
+      "title": "Le Diner Mortel (Livre)",
+      "tags": ["Écriture", "Roman Policier", "Publication"],
+      "description": "Écriture, structuration et finalisation d'un ouvrage complet, prouvant ma capacité à mener à bien des projets de grande ampleur.",
+      "fullDescription": "L'écriture de ce roman m'a appris la rigueur, la structuration d'un scénario complexe (arborescence d'indices) et la gestion de projet sur le temps long. Des compétences directement transposables à l'architecture logicielle.",
+      "git": "",
+      "gif": "",
+      "gallery": []
+    }
+  ]
+}

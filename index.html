@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Antoine LERAT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Antoine LERAT</h1>
+        <p class="subtitle">Étudiant en L2 Informatique | Passionné par l'UI/UX, le Tech Art et la XR</p>
+    </header>
+    <main>
+        <section class="project-prog">
+            <h2 class="section-title">Projets Programmation</h2>
+            <div class="carousel-wrapper">
+                <button class="scroll-btn left-btn">&#10094;</button>
+                <div class="card-container" id="prog-container"></div>
+                <button class="scroll-btn right-btn">&#10095;</button>
+            </div>
+        </section>
+
+        <section class="prototypes">
+            <h2 class="section-title">Prototypage UI/UX & App</h2>
+            <div class="carousel-wrapper">
+                <button class="scroll-btn left-btn">&#10094;</button>
+                <div class="card-container" id="proto-container"></div>
+                <button class="scroll-btn right-btn">&#10095;</button>
+            </div>
+        </section>
+
+        <section class="project-art">
+            <h2 class="section-title">Projets Artistiques / 3D</h2>
+            <div class="carousel-wrapper">
+                <button class="scroll-btn left-btn">&#10094;</button>
+                <div class="card-container" id="art-container"></div>
+                <button class="scroll-btn right-btn">&#10095;</button>
+            </div>
+        </section>
+
+        <section class="project-other">
+            <h2 class="section-title">Autres Projets</h2>
+            <div class="carousel-wrapper">
+                <button class="scroll-btn left-btn">&#10094;</button>
+                <div class="card-container" id="other-container"></div>
+                <button class="scroll-btn right-btn">&#10095;</button>
+            </div>
+        </section>
+    </main>
+
+    <div id="project-modal" class="modal hidden">
+        <div class="modal-overlay" id="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close">&times;</button>
+            <div id="modal-body">
+            </div>
+        </div>
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <button class="lightbox-close" id="lightbox-close">&times;</button>
+        <img class="lightbox-img" id="lightbox-img" src="" alt="Image en plein écran">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
