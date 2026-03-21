@@ -65,7 +65,6 @@ function ouvrirModal(idProjet) {
         `;
   }
 
-  // --- MODIFICATION : Le lien Git est mis dans un conteneur pour l'alignement ---
   let gitHtml = "";
   if (projet.git && projet.git.trim() !== "") {
     gitHtml = `
@@ -94,7 +93,6 @@ function ouvrirModal(idProjet) {
         `;
   }
 
-  // --- MODIFICATION : gitHtml est maintenant placé APRES la fullDescription ---
   modalBody.innerHTML = `
         <div class="modal-body-content">
             <h2>${projet.title}</h2>

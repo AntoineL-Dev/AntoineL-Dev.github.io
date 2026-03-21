@@ -173,7 +173,6 @@ article h3 {
   font-weight: bold;
 }
 
-/* --- Styles de la Modale --- */
 .modal {
   position: fixed;
   top: 0;
@@ -274,10 +273,9 @@ article h3 {
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.7);
 }
 
-/* --- NOUVEAU : Conteneur pour aligner le lien Git à droite --- */
 .modal-git-container {
   display: flex;
-  justify-content: flex-end; /* Aligne le contenu à droite */
+  justify-content: flex-end;
   margin-top: 1rem;
   margin-bottom: 1.5rem;
 }
@@ -293,7 +291,6 @@ article h3 {
   transition: all 0.2s ease;
 }
 
-/* On le transforme un peu en bouton pour un meilleur rendu visuel */
 .modal-git-link:hover {
   background-color: var(--accent-primary);
   color: var(--bg-surface);
@@ -334,7 +331,6 @@ article h3 {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
 }
 
-/* --- Styles de la Lightbox --- */
 .lightbox {
   position: fixed;
   top: 0;
