@@ -74,6 +74,20 @@ function ouvrirModal(idProjet) {
         `;
   }
 
+  let linkHtml = "";
+  if (
+    projet.externLink &&
+    projet.externLink.trim() !== "" &&
+    projet.linkTitle &&
+    projet.linkTitle.trim() !== ""
+  ) {
+    linkHtml = `
+            <div class="modal-git-container">
+                <a href="${projet.externLink}" target="_blank" class="modal-git-link">${projet.linkTitle} &rarr;</a>
+            </div>
+        `;
+  }
+
   let galleryHtml = "";
   if (projet.gallery && projet.gallery.length > 0) {
     const imagesHtml = projet.gallery
@@ -93,13 +107,19 @@ function ouvrirModal(idProjet) {
         `;
   }
 
+  let link = "";
+  if (gitHtml.trim() !== "") {
+    link = gitHtml;
+  } else if (linkHtml.trim() !== "") {
+    link = linkHtml;
+  }
   modalBody.innerHTML = `
         <div class="modal-body-content">
             <h2>${projet.title}</h2>
             <div class="tags">${tagsHtml}</div>
             ${gifHtml}
             <p>${projet.fullDescription}</p>
-            ${gitHtml}
+            ${link}
             ${galleryHtml}
         </div>
     `;

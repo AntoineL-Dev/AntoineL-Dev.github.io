@@ -26,11 +26,18 @@
       "id": "repere",
       "title": "Repère (App Mobile)",
       "tags": ["Flutter", "Dart", "Map / Localisation"],
-      "description": "Conception d'une application de localisation axée sur l'expérience utilisateur et l'ergonomie.",
-      "fullDescription": "Création d'un prototype fonctionnel en Flutter. Le code a été assisté par l'IA afin de me concentrer exclusivement sur la fluidité des animations, le design system et l'ergonomie de la carte interactive.",
-      "git": "",
+      "description": "Conception d'une application offrant un livret de lieux marqués par l'utilisateur et localisés.",
+      "fullDescription": "Création d'un prototype fonctionnel en Flutter. Le code a été assisté par l'IA afin de me concentrer exclusivement sur la fluidité des animations, le design system et l'ergonomie de la carte interactive. L'application permet à l'utilisateur de prendre en photo un lieu qu'il souhaite ajouter à son livret, il peut y ajouter une description et pourra s'y rendre faciliment avec le lieu localisé sur une carte intercative.",
+      "git": "https://github.com/AntoineL-Dev/repere",
       "gif": "",
-      "gallery": []
+      "gallery": [
+        "imgs/repere/logo.png",
+        "imgs/repere/20260114_111326.jpg",
+        "imgs/repere/20260114_111348.jpg",
+        "imgs/repere/20260114_111411.jpg",
+        "imgs/repere/20260114_111423.jpg",
+        "imgs/repere/20260114_111439.jpg"
+      ]
     },
     {
       "id": "wazeup",
@@ -46,7 +53,7 @@
   "art3d": [
     {
       "id": "props3d",
-      "title": "Prototype Jeu Vidéo (Props)",
+      "title": "Prototype Jeu Vidéo",
       "tags": ["Unreal Engine", "3D", "Creative Seed", "Props", "Rig"],
       "description": "Création complète de props 3D sur un personnage fourni, et intégration dans Unreal Engine.",
       "fullDescription": "Pipeline complet de la modélisation à l'intégration moteur. J'ai géré le maillage, les UVs, la création des textures, et l'intégration des assets sur le rig du personnage directement dans Unreal Engine 5.",
@@ -62,13 +69,18 @@
   "autres": [
     {
       "id": "livre",
-      "title": "Le Diner Mortel (Livre)",
+      "title": "Le Diner Mortel (Roman)",
       "tags": ["Écriture", "Roman Policier", "Publication"],
-      "description": "Écriture, structuration et finalisation d'un ouvrage complet, prouvant ma capacité à mener à bien des projets de grande ampleur.",
-      "fullDescription": "L'écriture de ce roman m'a appris la rigueur, la structuration d'un scénario complexe (arborescence d'indices) et la gestion de projet sur le temps long. Des compétences directement transposables à l'architecture logicielle.",
+      "description": "Écriture et auto-édition complète d'un roman policier.",
+      "fullDescription": "Ce projet est représentatif de ma première expérience en tant qu'écrivain amateur. Simplement passionné par l'écriture, j'ai pu expérimenter tout le processus de création d'un roman, à partir de son premier jet, de relectures, corrections, nouveaux jets,  des retours de beta-lecteurs, jusqu'à la publication finale du dernier manuscrit corrigé, en auto-édition.",
       "git": "",
+      "linkTitle": "Consulter le produit sur Amazon",
+      "externLink": "https://www.amazon.fr/Diner-Mortel-Antoine-Hargazi-ebook/dp/B0CQMR8FHG/ref=sr_1_1?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=4ABWNA1DLE66&dib=eyJ2IjoiMSJ9.RkbTIBG97yqSF6zYdPPzSlptkST1LIkQu1jZt-XRjBdYIQZTsI_xwu4H6qWbNOSUpe0KvzjISch4BSkGOZ9lyC7h7zgE3iGe4PBumHhMLSVD3W8qHRQ4820ycqg3lkyEoi0wDYX2VIl2cowecNhY9ele9wrdm-dztmLSmumtQyuWffQy9Mh86_jZWy6AY7DlSj14z2THKIetgL7SXslKCurAhIwrRDl8SyeiFx6uvuk494y3gJmDYfGvHVDtMEmdeGJNkNlXiuM_k3Kw5gml-w.kfNvRk97jUhPNL01UUNXW9mmggSORiDwvYFJmkz8tRE&dib_tag=se&keywords=le+diner+mortel&qid=1775672912&sprefix=le+diner+morte%2Caps%2C219&sr=8-1",
       "gif": "",
-      "gallery": []
+      "gallery": [
+        "imgs/le diner mortel/1ere.jpg",
+        "imgs/le diner mortel/4eme.jpg"
+      ]
     }
   ]
 }
