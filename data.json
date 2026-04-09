@@ -42,12 +42,24 @@
     {
       "id": "wazeup",
       "title": "WazeUp (App Mobile)",
-      "tags": ["Flutter", "Dart", "Gestion du Temps"],
+      "tags": ["Flutter", "Dart", "Gestion du Temps", "Navigation"],
       "description": "Prototype d'application mobile pour la gestion du temps.",
-      "fullDescription": "Seconde expérimentation UI/UX. L'objectif était de créer des flux de navigation intuitifs pour la saisie de données et la visualisation du temps.",
-      "git": "",
+      "fullDescription": "Première expérimentation UI/UX. Le code a été assisté par l'IA afin de me concentrer exclusivement l'UI. L'application permet à l'utilisateur de définir ses actions qu'il réalise lors de sa routine matinale et d'associer un temps à chaque action afin de calculer le temps total de la routine matinale et de pouvoir programmer l'heure du reveil en fonction de cette routine et du temps de trajet domicile/travail.",
+      "git": "https://github.com/AntoineL-Dev/waze_up",
       "gif": "",
-      "gallery": []
+      "gallery": [
+        "imgs/waze up/screen1.png",
+        "imgs/waze up/screen2.png",
+        "imgs/waze up/screen3.png",
+        "imgs/waze up/screen4.png",
+        "imgs/waze up/screen5.png",
+        "imgs/waze up/screen6.png",
+        "imgs/waze up/screen7.png",
+        "imgs/waze up/screen8.png",
+        "imgs/waze up/screen9.png",
+        "imgs/waze up/screen10.png",
+        "imgs/waze up/screen11.png"
+      ]
     }
   ],
   "art3d": [
