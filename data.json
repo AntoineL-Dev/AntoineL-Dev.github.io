@@ -6,8 +6,8 @@
       "tags": ["Java", "Algorithmique", "JavaSwing", "ACO", "Intéractif"],
       "description": "Projet inspiré du concept \"Ant Colony Simulation\" avec l'implication de l'algorithme ACO pour l'observation de comportements émergents.",
       "fullDescription": "Simulation d'intelligence en essaim (Swarm Intelligence). Les fourmis déposent des phéromones qui s'évaporent avec le temps. L'interface Swing permet de dessiner des murs ou de déposer de la nourriture en temps réel pour observer l'adaptation de la colonie.",
-      "git": "",
-      "gif": "",
+      "git": "https://github.com/AntoineL-Dev/AntColonySimulation",
+      "gif": "gifs/ant simulation/sim.gif",
       "gallery": []
     }
   ],
