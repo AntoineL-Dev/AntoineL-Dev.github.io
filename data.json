@@ -9,6 +9,16 @@
       "git": "https://github.com/AntoineL-Dev/AntColonySimulation",
       "gif": "gifs/ant simulation/sim.gif",
       "gallery": []
+    },
+    {
+      "id": "galaga",
+      "title": "Galaga",
+      "tags": ["Java", "Programmation Orientée Objet", "Projet Universitaire"],
+      "description": "Conception d'une variante du jeu d'arcade : Galaga.",
+      "fullDescription": "Dans le cadre d'un projet pour un module universitaire, on a réalisé en binome la conception d'un jeu d'arcade avec différents rounds, une difficulté très simplifiée pour les premiers niveaux et un boss final mélangeant les types d'ennemis. Ce projet a été réalisé en Java orienté objet avec une pointe d'aide par l'IA pour le debug, dont les utilisations sont spécifiées dans le fichier IAGenerative.txt.",
+      "git": "https://github.com/AntoineL-Dev/Galaga",
+      "gif": "gifs/galaga/galaga.gif",
+      "gallery": []
     }
   ],
   "prototypes": [
