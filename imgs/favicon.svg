@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="64" fill="#111111"/>
+  <!-- Prompt -->
+  <text x="68" y="310" font-family="monospace, 'Courier New', Courier" font-size="72" font-weight="700" fill="#ffaa00">$&gt;</text>
+  <text x="180" y="310" font-family="monospace, 'Courier New', Courier" font-size="144" font-weight="700" fill="#ffffff">AL</text>
+  <!-- Cursor -->
+  <rect x="390" y="200" width="48" height="120" rx="8" fill="#ffaa00" opacity="0.85"/>
+</svg>
